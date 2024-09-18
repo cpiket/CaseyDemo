@@ -120,6 +120,11 @@
   display: flex;
 }
 
+button {
+  width: 50px;
+  height: 30px;
+}
+
 .clear-filters {
   align-items: center;
   display: flex;
@@ -129,18 +134,18 @@
   margin-right: 8px;
 }
 
-.ais-ClearRefinements {
-    color: #21243d;
-}
-
 .ais-ClearRefinements .ais-ClearRefinements-button {
-  color: #21243d;
-  font-size: 12px;
+  color: rgba(33, 36, 61, 0.7);
+  font-size: 8px;
+  width: 100px;
+  height: 25px;
 }
 
 .ais-ClearRefinements-button--disabled {
   color: rgba(33, 36, 61, 0.5);
-  font-size: 12px;
+  font-size: 8px;
+  width: 100px;
+  height: 25px;
 }
 
 /* Hits */
